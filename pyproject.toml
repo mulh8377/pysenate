@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pysenate"
+version = "0.1.0"
+description = "scrapes senate and house websites looking for bills related to cybersecurity"
+authors = ["mulh8377 <vontossman@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.1"
+bs4 = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
