@@ -34,7 +34,7 @@ def find_column(soup) -> bool:
         print(f'{i.text}')
 
         # transform text into lowercase
-        if 'cybersecurity' in i.text.lower():
+        if 'relief' in i.text.lower():
             return True
     
 
